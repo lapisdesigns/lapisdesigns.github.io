@@ -1,150 +1,176 @@
 @import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
 
-.survey{
-  height: 500px;
-}
-
-.header {
-  height: 100px;
-  width: 100vw;
-  background: #336699;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: relative;
-}
-
-img {
-  position: absolute;
-  width: 200px;
-  padding-left: 40px;
-  top: 20%;
-}
-
-.white {
-  position: relative;
-  top: -10%;
-}
-.white img{
-  position: absolute;
-  right: 0%;
-  width: 250px;
-}
-
-.blue {
-  position: relative;
-  top: 20%;
-}
-.blue img{
-  position: absolute;
-  left: -4%;
-  width: 250px;
-}
-
 body {
   font-family: "Abel", sans-serif;
   margin: 0;
 }
-h2{
-    font-size: 5em;
-  }
 
-  h3{
-    font-size: 3em;
-    margin: 0;
-  
-  }
+.scroll {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
 
-  .scroll {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-  }
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: #16222e;
+  scroll-snap-align: start;
+  position: relative;
+}
 
-  .scrollDown{
-    text-align: center;
-    color: #f6f4f3;
-    margin-top: 29%;
-  }
+.intro-text {
+  color: white;
+  font-size: 5em;
+  font-weight: normal;
+  text-align: center;
+  position: absolute;
+  width: 450px;
+  left: 36.8%;
+  top: 20%;
+}
 
+.part2 {
+  top: 25%;
+  display: hidden;
+}
 
-  .container {
-    position: relative;
-  }
+.intro-text-box {
+  position: relative;
+}
 
-  .background {
-    height: 100vh;
-    width: 100vw;
-    background: #142638;
-    scroll-snap-align: start;
-  }
+.white-text {
+  color: white;
+}
 
-  .text {
-   margin-top: 25%;
-    padding-left: 40px;
-  }
+.intro-text {
+  background: #336699;
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  color: #51cb20;
+  z-index: 2;
+}
 
-  h1 {
-    color: #f6f4f3;
-    margin-bottom: 0;
-    font-size: 7em;
-    font-weight: normal;
-    margin-top: 0;
-  }
+.intro-text-highlight {
+  position: absolute;
+  top: 50%;
+}
 
-  .rotating {
-    position: absolute;
-    color: #51cb20;
-    width: 100%;
-    z-index: 2;
-    margin-bottom: 20px;
-  }
+.half-logo {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  bottom: 0%;
+}
 
-  .highlight {
-    position: absolute;
-    background: #336699;
-    width: 550px;
-    height: 75px;
-    z-index: 1;
-    margin-top: 85px;
-    margin-bottom: 50px;
-  }
+.background2 {
+  height: 100vh;
+  width: 100vw;
+  background: #336699;
+  scroll-snap-align: start;
+  position: relative;
+}
 
-  a {
-    color: #dddddd;
-  }
+.inspirational-quote {
+  color: white;
+  margin: 0;
+  font-size: 3em;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  height: 200px;
+}
 
-  .services {
-    height: 100vh;
-    width: 100vw;
-    background-color: #172664;
-    padding-top: 20%;
-    scroll-snap-align: start;
-    text-align: center;
-  }
+.image-hold {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+}
 
-  .services h3{
-    color:#f6f4f3;
-  }
+.background3 {
+  height: 100vh;
+  width: 100vw;
+  background: #f6f4f3;
+  scroll-snap-align: start;
+}
 
-  .about {
-    height: 100vh;
-    width: 100vw;
-    background: #F6F4F3;
-    scroll-snap-align: start;
-  }
+.wwd {
+  color: #142638;
+  margin: 0;
+}
 
-  .about h3{
-    padding: 0 15px;
-  }
+.wwd-title {
+  font-size: 3em;
+  margin-top: 10px;
+  margin-left: 20px;
+}
 
-  .contact {
-    height: 100vh;
-    width: 100vw;
-    background-color: #172664;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    text-align: center;
-    color: #F6F4F3;
-  }
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.service-block {
+  width: 350px;
+  margin: 20px;
+}
+
+.background4 {
+  height: 100vh;
+  width: 100vw;
+  background: #172664;
+  scroll-snap-align: start;
+}
+
+.faces-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.headshot {
+  height: 250px;
+  width: 175px;
+  margin: 10px;
+  background: #d8d8d8;
+}
+
+.headshot-quote {
+  color: white;
+  margin: 0;
+  font-size: 2em;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.background5 {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+
+.halfback1 {
+  height: 60vh;
+  width: 100vw;
+  background: #336699;
+}
+
+.halfback2 {
+  height: 40vh;
+  width: 100vw;
+  background: #142638;
+}
+
+.footer-logo {
+  height: 50%;
+  margin: 0;
+  margin-top: 20%;
+  margin-left: 20px;
+}
