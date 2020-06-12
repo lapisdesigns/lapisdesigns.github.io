@@ -20,7 +20,6 @@ body {
 }
 
 .intro-text {
-
   font-size: 4em;
   font-weight: normal;
   text-align: center;
@@ -32,10 +31,10 @@ body {
   z-index: 2;
 }
 
-.white-text{
-  color:white;
+.white-text {
+  color: white;
 }
-.green-text{
+.green-text {
   color: #51cb20;
   z-index: 2;
 }
@@ -103,18 +102,17 @@ body {
   margin: 0;
 }
 
-.service-block h2{
-  font-size: 2.2em;;
+.service-block h2 {
+  font-size: 2.2em;
 }
 
-.service-block p{
+.service-block p {
   font-size: 1.5em;
 }
 .wwd-title {
   font-size: 3.5em;
   margin-left: 50px;
   padding-top: 50px;
-
 }
 
 .service-container {
@@ -181,41 +179,49 @@ body {
   flex-wrap: wrap;
 }
 
-.footer-logo{
+.footer-logo {
   height: 60%;
   margin: 0;
   margin-top: 80px;
   margin-left: 50px;
 }
 
-.footer{
+.footer {
   color: #f6f4f3;
   text-align: center;
   width: 50%;
   margin-top: 80px;
 }
 
-@media only screen and (max-width: 768px){
-  .intro-text-highlight{
+@media only screen and (max-width: 768px) {
+  .intro-text-highlight {
     width: 70%;
     left: 15%;
   }
-
- 
 }
 
-@media only screen and (min-width: 1000px){
-  .half-logo{
+@media only screen and (min-width: 1000px) {
+  .half-logo {
     width: 500px;
     left: calc(50% - 250px);
-    
-    
   }
 }
 
 .icon-container {
-background-color: #383e47;
-margin: 10px;
+  background-color: #383e47;
+  margin-left: 60px;
+}
 
+.outer {
+  padding: 50px;
+  text-align: center;
+}
 
+i {
+  padding: 5px;
+}
+
+ul {
+  padding: 5%;
+  margin: 0% 5%;
 }
