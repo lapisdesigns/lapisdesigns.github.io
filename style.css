@@ -57,6 +57,15 @@ body {
   margin-top: 325px;
 }
 
+.slide-two {
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 250px;
+
+
+}
+
 .half-logo {
   width: 50%;
   position: absolute;
@@ -67,7 +76,9 @@ body {
 .background2 {
   height: 100vh;
   width: 100vw;
-  background-image: url("https://miro.medium.com/max/10368/1*2uptiYYvbaTXnVy-8MYdsg.jpeg");
+  background: #336699;
+
+  /* background: url("https://scx2.b-cdn.net/gfx/news/hires/2019/wefoundlapis.jpg") no-repeat scroll left center; */
   scroll-snap-align: start;
   position: relative;
 }
@@ -154,7 +165,6 @@ body {
   margin: 0;
   font-size: 2.9em;
   width: 70%;
-  /* text-align: center; */
   margin: auto;
   margin-top: 70px;
 }
@@ -179,21 +189,29 @@ body {
   flex-wrap: wrap;
 }
 
-.footer-logo {
+/* .footer-logo {
   height: 60%;
   margin: 0;
   margin-top: 80px;
   margin-left: 60px;
-}
+} */
 
 .footer {
   color: #f6f4f3;
   width: 50%;
   margin-top: 80px;
+  text-align: center;
 }
 
 .footer-name {
   margin-left: 60%;
+}
+
+.footer-logo {
+  width: 50vw;
+  height: 13.3397vw;
+  display: block;
+  margin: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -210,7 +228,28 @@ body {
   }
 }
 
-.icon-container {
+@media only screen and (max-width: 768px) {
+  td {
+    display: block;
+    font-size: 0.7em;
+  }
+
+  /* .wwd-text {
+    font-size: 1em;
+  }
+
+  .wwd-header {
+    font-size: 2em;
+  } */
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-logo {
+    width: 500px;
+    height: 133.397px;
+  }
+}
+/* .icon-container {
   background-color: #383e47;
   margin-left: 40%;
 }
@@ -228,7 +267,7 @@ i {
 ul {
   padding: 5%;
   margin: 0% 5%;
-}
+} */
 
 /* @media only screen and (min-width: 1000px) {
   .image-hold {
