@@ -49,12 +49,12 @@ body {
 }
 
 .intro-text-highlight {
-  height: 80px;
+  height: 40px;
   position: absolute;
   width: 50%;
   background: #336699;
   left: 25%;
-  margin-top: 310px;
+  margin-top: 325px;
 }
 
 .half-logo {
@@ -67,20 +67,20 @@ body {
 .background2 {
   height: 100vh;
   width: 100vw;
-  background: #336699;
+  background-image: url("https://miro.medium.com/max/10368/1*2uptiYYvbaTXnVy-8MYdsg.jpeg");
   scroll-snap-align: start;
   position: relative;
 }
 
 .inspirational-quote {
   color: white;
-  margin: 0;
   font-size: 3em;
-  width: 70%;
+  width: 60%;
   text-align: center;
-  margin: auto;
   height: 200px;
-  padding: 5% 5% 0 5%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #336699;
 }
 
 .image-hold {
@@ -190,7 +190,6 @@ body {
   color: #f6f4f3;
   width: 50%;
   margin-top: 80px;
-  
 }
 
 .footer-name {
