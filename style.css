@@ -57,15 +57,6 @@ body {
   margin-top: 325px;
 }
 
-.slide-two {
-  width: 90%;
-  position: absolute;
-  left: 5%;
-  top: 250px;
-
-
-}
-
 .half-logo {
   width: 50%;
   position: absolute;
@@ -77,21 +68,47 @@ body {
   height: 100vh;
   width: 100vw;
   background: #336699;
-
-  /* background: url("https://scx2.b-cdn.net/gfx/news/hires/2019/wefoundlapis.jpg") no-repeat scroll left center; */
+  background: url("https://hackernoon.com/hn-images/1*rbB4-Sq36Q8ugnHb5DBn_Q@2x.jpeg")
+    no-repeat scroll ;
   scroll-snap-align: start;
   position: relative;
+}
+
+@media only screen and (min-width: 1850px) {
+  .background2 {
+    background-size: 100% 130%;
+  }
+  
 }
 
 .inspirational-quote {
   color: white;
   font-size: 3em;
-  width: 60%;
   text-align: center;
-  height: 200px;
   margin: 0 auto;
   padding: 20px;
   background: #336699;
+}
+
+.slide-two {
+  position: absolute;
+  width: 50%;
+  background: #336699;
+  margin: 0 auto;
+  top: 40%;
+  left: 25%;
+}
+@media only screen and (max-width: 768px) {
+  .slide-two {
+    width: 75%;
+    left: 12.5%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .slide-two {
+    top: 60%;
+  }
 }
 
 .image-hold {
@@ -108,35 +125,30 @@ body {
   scroll-snap-align: start;
 }
 
-.wwd {
-  color: #142638;
-  margin: 0;
-}
-
-.service-block h2 {
-  font-size: 2.2em;
-}
-
-.service-block p {
-  font-size: 1.5em;
-}
 .wwd-title {
   font-size: 3.5em;
   margin-left: 50px;
-  padding-top: 50px;
+  margin-top: 0;
+  padding-top: 15px;
 }
 
-.service-container {
+.middle {
+  width: 5%;
+}
+
+table {
   width: 80%;
-  
-  margin: auto;
-  margin-top: 200px;
-
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 20vh;
 }
-
 
 td {
-  text-align: center;
+  width: 42.5%;
+}
+
+tr {
+  width: 100%;
 }
 
 .background4 {
@@ -189,12 +201,6 @@ td {
   flex-wrap: wrap;
 }
 
-/* .footer-logo {
-  height: 60%;
-  margin: 0;
-  margin-top: 80px;
-  margin-left: 60px;
-} */
 
 .footer {
   color: #f6f4f3;
@@ -231,16 +237,13 @@ td {
 @media only screen and (max-width: 768px) {
   td {
     display: block;
-    font-size: 0.7em;
+    width: 80%;
+    margin: auto;
   }
 
-  /* .wwd-text {
-    font-size: 1em;
+  table {
+    margin-top: 5vh;
   }
-
-  .wwd-header {
-    font-size: 2em;
-  } */
 }
 
 @media only screen and (min-width: 1000px) {
