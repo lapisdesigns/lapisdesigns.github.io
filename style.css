@@ -107,7 +107,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .slide-two {
-    top: 60%;
+    top: 40%;
   }
 }
 
@@ -188,13 +188,13 @@ tr {
 }
 
 .halfback1 {
-  height: 60vh;
+  height: 70vh;
   width: 100vw;
   background: #336699;
 }
 
 .halfback2 {
-  height: 40vh;
+  height: 30vh;
   width: 100vw;
   background: #142638;
   display: flex;
@@ -233,7 +233,10 @@ tr {
     top: 30%;
   }
   table{
-    margin-top: 10vh;
+    margin-top: 5vh;
+  }
+  .middle{
+    display: none;
   }
 }
 
