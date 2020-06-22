@@ -224,6 +224,10 @@ tr {
   .intro-text-highlight {
     width: 70%;
     left: 15%;
+    margin-top: 270px;
+  }
+  .intro-text{
+    font-size: 3em;
   }
 }
 
