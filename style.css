@@ -80,6 +80,14 @@ body {
   }
   
 }
+@media only screen and (max-width: 768px) {
+  .background2 {
+    background-size: 100% 100%;
+  }
+  
+}
+
+
 
 .inspirational-quote {
   color: white;
@@ -261,6 +269,7 @@ tr {
 
   .wwd-title{
     padding-top: 50px;
+    font-size: 2em;
   }
   .background2{
     font-size: .7em;
