@@ -83,7 +83,9 @@ body {
 @media only screen and (max-width: 768px) {
   .background2 {
     background-size: 100% 100%;
+  
   }
+
   
 }
 
@@ -103,13 +105,14 @@ body {
   width: 50%;
   background: #336699;
   margin: 0 auto;
-  top: 40%;
+  top: 70%;
   left: 25%;
 }
 @media only screen and (max-width: 768px) {
   .slide-two {
     width: 75%;
     left: 12.5%;
+    
   }
 
 }
@@ -239,7 +242,7 @@ tr {
     font-size: 3em;
   }
   .slide-two{
-    top: 20%;
+    top: 40%;
   }
   table{
     margin-top: 3vh;
