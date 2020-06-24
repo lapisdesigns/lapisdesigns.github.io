@@ -103,6 +103,7 @@ body {
     width: 75%;
     left: 12.5%;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -255,8 +256,16 @@ tr {
   }
 
   table {
-    margin-top: 5vh;
+    margin-top: 0vh;
   }
+
+  .wwd-title{
+    padding-top: 50px;
+  }
+  .background2{
+    font-size: .7em;
+  }
+  
 }
 
 @media only screen and (min-width: 1000px) {
