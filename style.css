@@ -5,17 +5,17 @@ body {
   margin: 0;
 }
 
-.scroll {
+/* .scroll {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-}
+} */
 
 .background {
   height: 100vh;
   width: 100vw;
   background: #16222e;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
   position: relative;
 }
 
@@ -70,7 +70,7 @@ body {
   background: #336699;
   background: url("https://hackernoon.com/hn-images/1*rbB4-Sq36Q8ugnHb5DBn_Q@2x.jpeg")
     no-repeat scroll ;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
   position: relative;
 }
 
@@ -134,7 +134,7 @@ body {
   height: 100vh;
   width: 100vw;
   background: #f6f4f3;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 .wwd-title {
@@ -167,7 +167,7 @@ tr {
   height: 100vh;
   width: 100vw;
   background: #172664;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 .faces-container {
@@ -196,7 +196,7 @@ tr {
 .background5 {
   height: 100vh;
   width: 100vw;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 .halfback1 {
