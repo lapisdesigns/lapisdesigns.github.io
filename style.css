@@ -65,18 +65,21 @@ body {
 }
 
 .background2 {
+
   height: 100vh;
   width: 100vw;
+  
   background: #336699;
-  background: url("https://hackernoon.com/hn-images/1*rbB4-Sq36Q8ugnHb5DBn_Q@2x.jpeg")
+  background: url("https://res.cloudinary.com/drz8x4anh/image/upload/v1593473149/Designer_h8p937.png")
     no-repeat scroll ;
+    background-size: 100% 100%;
   /* scroll-snap-align: start; */
   position: relative;
 }
 
-@media only screen and (min-width: 1850px) {
+@media only screen and (min-width: 1266px) {
   .background2 {
-    background-size: 100% 130%;
+    background-size: 100% 150%;
   }
   
 }
@@ -88,6 +91,8 @@ body {
 
   
 }
+
+
 
 
 
@@ -134,6 +139,7 @@ body {
   /* height: 100vh; */
   width: 100vw;
   background: #f6f4f3;
+  padding-bottom: 200px;
   /* scroll-snap-align: start; */
 }
 
@@ -160,8 +166,9 @@ body {
 table {
   width: 80%;
   margin: 0 auto;
+  /* margin-bottom: 200px; */
   padding: 0;
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
 }
 
 td {
@@ -221,6 +228,17 @@ tr {
   display: flex;
   flex-wrap: wrap;
 }
+
+.contact {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 30px;
+  background: #336699;
+  border: solid #336699;
+  
+}
+
+
 
 
 .footer {
