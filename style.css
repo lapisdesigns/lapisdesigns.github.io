@@ -91,10 +91,11 @@ body {
   text-align: center;
   margin-top: 0;
   position: absolute;
-  width: 50%;
-  top: 15%;
+  width: 30%;
+  top: 35%;
   left: 5%;
   z-index: 2;
+  
 }
 
 .designer-img {
@@ -103,23 +104,56 @@ body {
 
 .image-block {
   position: absolute;
-    top: 23%;
+  top: 5%;
   left: 35%;
   z-index: 1;
+  height: 80vh;
 }
 
+
+
+@media only screen and (max-width: 1200px){
+  .inspirational-quote{
+    top: 55%;
+    margin-left: 10%;
+    width: 70%;
+    margin-top: 17%;
+  }
+  .image-block{
+    top: 10%;
+    left: 15%; 
+  }
+  .designer-img {
+    width: 70vw;
+  }
+
+}
 @media only screen and (max-width: 768px) {
   .slide-two {
     width: 75%;
     left: 12.5%;
   }
+  .image-block{
+    top: 20%;
+    left: 7.5%;
+  }
+  .designer-img {
+    width: 80vw;
+  }
+
+
+
+
 }
 
 @media only screen and (min-width: 768px) {
   .slide-two {
     top: 40%;
   }
+
+
 }
+
 
 .image-hold {
   width: 50%;
